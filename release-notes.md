@@ -1,3 +1,2 @@
 ### Fixed
-- Fixed changelog scrollbar overlap in `AboutPage.xaml` by adding right-side clearance on the release history list and filtering empty/unreleased headings from the offline changelog view.
-- Fixed UTF-8 bullet encoding (`&#x2022;`) in the Feature Capabilities section of `AboutPage.xaml`.
+- Fixed QuestPDF report export failure caused by `Consolas` font family lookup in QuestPDF 2026.9.x by enabling `UseSystemFonts` and disabling `ThrowOnMissingFontFamilies` in `AssessmentDocuments.cs`.

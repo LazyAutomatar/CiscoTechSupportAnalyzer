@@ -15,6 +15,11 @@ and application versions follow [Semantic Versioning](https://semver.org/spec/v2
 
 ### Fixed
 
+## [2.3.2] - 2026-11-27
+
+### Fixed
+- Fixed QuestPDF report export failure caused by `Consolas` font family lookup in QuestPDF 2026.9.x by enabling `UseSystemFonts` and disabling `ThrowOnMissingFontFamilies` in `AssessmentDocuments.cs`.
+
 ## [2.3.1] - 2026-11-27
 
 ### Fixed
