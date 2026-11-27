@@ -2,7 +2,7 @@
 
 Assess Cisco IOS and IOS XE switches and routers from saved `show tech-support` captures or read-only SSH sessions. Audit device health, inspect the exact CLI evidence behind every warning, explore parsed diagnostic tables, and export presentation-ready reports.
 
-[![Version](https://img.shields.io/badge/version-2.3.0-0078D4.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.1-0078D4.svg)](CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-555555.svg)](#download)
 [![License](https://img.shields.io/badge/license-Freeware-brightgreen.svg)](LICENSE.md)
 [![Developer](https://img.shields.io/badge/developer-Yash%20Nalawde-blue.svg)](#support-and-license)
@@ -35,12 +35,12 @@ Choose the package for your operating system. All downloads are self-contained w
 
 | Platform | Architecture | Package | How to Start |
 | :--- | :---: | :--- | :--- |
-| **Windows** | x64 (Installer) | `CiscoTechSupportAnalyzer-2.3.0-win-x64-setup.exe` | Run the setup wizard; launches from the Start menu or optional Desktop shortcut. |
-| **Windows** | x64 (Portable) | `CiscoTechSupportAnalyzer-2.3.0-win-x64.zip` | Extract the ZIP to a folder and run `CiscoTechSupportAnalyzer.WPF.exe`. |
-| **macOS** | Apple Silicon (ARM64) | `CiscoTechSupportAnalyzer-2.3.0-osx-arm64.tar.gz` | Extract the archive and run `./TechSupport.Desktop` from Terminal. |
-| **macOS** | Intel (x64) | `CiscoTechSupportAnalyzer-2.3.0-osx-x64.tar.gz` | Extract the archive and run `./TechSupport.Desktop` from Terminal. |
-| **Linux** | x64 | `CiscoTechSupportAnalyzer-2.3.0-linux-x64.tar.gz` | Extract the archive and run `./TechSupport.Desktop`. |
-| **Linux** | ARM64 | `CiscoTechSupportAnalyzer-2.3.0-linux-arm64.tar.gz` | Extract the archive and run `./TechSupport.Desktop`. |
+| **Windows** | x64 (Installer) | `CiscoTechSupportAnalyzer-2.3.1-win-x64-setup.exe` | Run the setup wizard; launches from the Start menu or optional Desktop shortcut. |
+| **Windows** | x64 (Portable) | `CiscoTechSupportAnalyzer-2.3.1-win-x64.zip` | Extract the ZIP to a folder and run `CiscoTechSupportAnalyzer.WPF.exe`. |
+| **macOS** | Apple Silicon (ARM64) | `CiscoTechSupportAnalyzer-2.3.1-osx-arm64.tar.gz` | Extract the archive and run `./TechSupport.Desktop` from Terminal. |
+| **macOS** | Intel (x64) | `CiscoTechSupportAnalyzer-2.3.1-osx-x64.tar.gz` | Extract the archive and run `./TechSupport.Desktop` from Terminal. |
+| **Linux** | x64 | `CiscoTechSupportAnalyzer-2.3.1-linux-x64.tar.gz` | Extract the archive and run `./TechSupport.Desktop`. |
+| **Linux** | ARM64 | `CiscoTechSupportAnalyzer-2.3.1-linux-arm64.tar.gz` | Extract the archive and run `./TechSupport.Desktop`. |
 
 [View all available release packages and checksums](https://github.com/LazyAutomatar/CiscoTechSupportAnalyzer/releases)
 
