@@ -73,11 +73,7 @@ You can test the complete workflow using the built-in sample capture before conn
 
 Navigate to **Capture** (<kbd>Ctrl</kbd> + <kbd>2</kbd>) and choose your collection method:
 
-<!-- SCREENSHOT INPUT: Capture Workspace (v2.2.0)
-     Save screenshot to: docs/images/sample-capture.png
-     Then uncomment the line below:
 ![Two-column Capture workspace showing Air-Gapped log intake and Live SSH collection](docs/images/sample-capture.png)
--->
 
 - **Log files (Air-Gapped Assessment):** Click **Browse** to select `.txt`, `.log`, `.cfg`, or `.zip` files from a single device and collection session, verify readiness in the right-hand launch card, and click **Run Diagnostic Assessment →**.
 - **Live SSH:** Enter the switch IP or hostname, SSH port (`22`), username, password, and optional enable secret. Choose targeted diagnostic profiling or a full `show tech-support` capture, then select **Run Live Network Assessment →**.
@@ -115,11 +111,7 @@ In **Alerts**, filter by severity (`All`, `Critical`, `Warning`, `Info`) or sear
 - **Verify timing:** An err-disabled status reflects the state at capture time, whereas syslog entries record historical events. Compare log timestamps against interface tables before escalating.
 - **Jump to raw evidence:** Click **Open in Raw Evidence** inside any alert card to open **Raw evidence** (<kbd>Ctrl</kbd> + <kbd>5</kbd>) scrolled directly to the matching command section and line number.
 
-<!-- SCREENSHOT INPUT: Raw Evidence Jump (v2.2.0)
-     Save screenshot to: docs/images/sample-raw-evidence.png
-     Then uncomment the line below:
 ![Raw Evidence viewer jumped directly to the show power inline output for Gi1/0/12](docs/images/sample-raw-evidence.png)
--->
 - **Hand off next checks:** Use **Copy summary** for ticket notes or **Copy checks** to copy read-only verification CLI commands for live device triage.
 
 ---
@@ -128,11 +120,7 @@ In **Alerts**, filter by severity (`All`, `Critical`, `Warning`, `Info`) or sear
 
 Open **Diagnostics Explorer** (<kbd>Ctrl</kbd> + <kbd>4</kbd>) to inspect operational switch data organized into five practical views:
 
-<!-- SCREENSHOT INPUT: Diagnostics Explorer (v2.2.0)
-     Save screenshot to: docs/images/sample-diagnostics.png
-     Then uncomment the line below:
 ![Diagnostics Explorer showing organized operational tables across interfaces, hardware, and resources](docs/images/sample-diagnostics.png)
--->
 
 | View | Operational Use Case |
 | :--- | :--- |
