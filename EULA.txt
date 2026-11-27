@@ -1,0 +1,103 @@
+END-USER LICENSE AGREEMENT (EULA) FOR CISCO TECH SUPPORT ANALYZER
+================================================================================
+PLEASE READ THESE TERMS BEFORE INSTALLING, COPYING, OR USING THE SOFTWARE.
+By installing, copying, or using the Software, you agree to these terms. If you
+do not agree, do not install or use it. If acting for an organization, you must
+have authority to accept these terms on its behalf.
+
+Copyright (c) 2026 Yash Nalawde. All rights reserved.
+Official distribution channel:
+https://github.com/LazyAutomatar/CiscoTechSupportAnalyzer
+================================================================================
+
+1. GRANT OF LICENSE (CLOSED SOURCE FREEWARE)
+Yash Nalawde ("Licensor") grants any person or organization a non-exclusive,
+royalty-free license to download, install, copy for backup or internal deployment,
+and run official binary releases of Cisco Tech Support Analyzer and associated
+documentation ("Software") for personal and commercial use, including enterprise
+troubleshooting, IT assessments, consulting engagements, and educational use.
+The Software is licensed, not sold. All rights not expressly granted are reserved.
+Access to a source repository does not itself grant a source-code license.
+
+2. RESTRICTIONS AND REDISTRIBUTION
+a. Proprietary and closed source: You may not decompile, disassemble, reverse
+   engineer, decrypt, or attempt to derive the Software's source code, except
+   to the extent permitted by mandatory applicable law.
+b. No resale or white-labeling: You may not sell, rent, lease, sublicense, or
+   charge a distribution fee for the Software, installer, packages, or associated
+   documentation without prior written permission from the Licensor. This does
+   not prohibit charging for your own consulting or assessment services using
+   the Software as permitted in Section 1.
+c. Integrity and notices: You may not modify or remove copyright notices,
+   branding, digital signatures (where present), or proprietary markings from
+   the Software, its setup packages, or its generated reports. You may redact
+   your own sensitive data from reports while preserving those notices.
+d. Unmodified redistribution: You may redistribute official, unmodified binary
+   installers and portable packages free of charge, provided this EULA and the
+   accompanying license notices remain attached and the Licensor is credited.
+   This permission does not grant rights to distribute proprietary source code.
+e. Third-party components: Components supplied under separate third-party or
+   open-source licenses remain governed by those licenses. Nothing in this
+   EULA restricts rights those licenses or mandatory law grant to you.
+
+3. OFFLINE ANALYSIS AND RESPONSIBLE USE
+The Software analyzes diagnostic captures supplied by you. It does not connect
+to managed devices, collect live telemetry, execute suggested commands, or make
+device configuration changes. Suggested checks must be evaluated and performed
+by an authorized operator outside the Software.
+
+Findings are interpretations of a captured snapshot, not guarantees of live
+availability, complete coverage, security, or root cause. You are responsible
+for obtaining permission to process captures and for validating findings before
+making operational decisions. You retain your rights in input data and reports;
+this EULA does not transfer ownership of your network or customer information.
+
+4. UPDATES AND DATA HANDLING
+The Software can contact a selected HTTPS update feed to check for releases and
+download packages. Startup checks are optional and disabled by default. Checking,
+downloading, and installing are separate user actions. Hosts receive normal HTTP
+request metadata; the update service does not transmit capture contents,
+credentials extracted from captures, configurations, or generated reports.
+A local JSON manifest can also be selected; its package downloads use HTTPS.
+
+Opening a capture reads it into memory. The application does not automatically
+save a copy or report; exports are saved when explicitly requested. Appearance
+and update settings are saved when requested, and verified update packages are
+stored locally. You are responsible for reviewing exports before sharing them.
+
+Updates may be offered under this EULA or separately presented terms. This EULA
+does not treat undisclosed future terms as accepted. Update availability,
+maintenance, and support are not guaranteed.
+
+5. DISCLAIMER OF WARRANTIES
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED,
+STATUTORY, OR OTHERWISE, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE LICENSOR DOES NOT WARRANT
+THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS, PRODUCE COMPLETE OR CORRECT
+DIAGNOSTIC FINDINGS, OR OPERATE WITHOUT INTERRUPTION OR ERROR.
+
+6. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR, CONTRIBUTORS,
+AND AFFILIATES SHALL NOT BE LIABLE FOR SPECIAL, INCIDENTAL, INDIRECT, OR
+CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS
+OF NETWORK ACCESS, LOSS OF DATA, OR OTHER PECUNIARY LOSS ARISING FROM USE OF OR
+INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH LOSS.
+NOTHING IN THIS EULA EXCLUDES LIABILITY OR STATUTORY RIGHTS THAT APPLICABLE LAW
+DOES NOT PERMIT TO BE EXCLUDED OR LIMITED.
+
+7. GOVERNING LAW
+This agreement is governed by the laws of India, without giving effect to
+conflict-of-law principles, subject to any mandatory protections applicable to
+you that cannot lawfully be excluded.
+
+8. OWNERSHIP AND CONTACT
+The Software's proprietary rights remain with the Licensor. Cisco names and
+trademarks belong to their respective owners. This is an independent tool and
+is not affiliated with or endorsed by Cisco.
+
+For licensing inquiries or support, use the official distribution repository's
+issue tracker once available, or the source repository's issue tracker if you
+have access. Do not post unredacted captures or credentials to public issues.
+https://github.com/LazyAutomatar/CiscoTechSupportAnalyzer/issues
+================================================================================
